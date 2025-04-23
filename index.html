@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title> Frederick's Portfolio </title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  
+
+  <body>
+
+    <!-- Flex Container for Header -->
+    <div id="flex_container_header">
+
+      <img src="images/logo.png" id="logo">
+
+      <a href="#ref_projects"> <img src="images/nav_projects.png" class="header"> </a>
+      <a href="#ref_contacts"> <img src="images/nav_contact.png" class="header"> </a>
+      <a href="#ref_experiences"> <img src="images/nav_expandskills.png" class="header" id="exp"> </a>
+
+    </div> <!-- end of header flex container -->
+    
+    <!-- Main Flex Container -->
+    <div id="flex_container_main">
+
+      <!-- Flex Container for Displaying Personal Photo and Projects on the Right -->
+      <div id=flex_container_right> 
+        <img src="images/personal photo.png" id="personal_photo">
+
+        <h1 style="text-align:center" id="ref_projects"> PREVIOUS PROJECTS</h1>
+
+        <h3 style="text-align:center"> Hacking Game </h3>
+        <a href="https://drive.google.com/drive/folders/1NQ0-kK52MrR6AEU2Tv5KnY3x9d1Fp2cG?usp=drive_link"> <img src="images/CMSC 12 project.png" class="project_img"> </a>
+        <p> A CLI game written using Python that simulates hacking based on a shown storage. </p>
+
+        <h3 style="text-align:center"> POKEMON: Save Ash (Tactical Chess Game) </h3>
+        <a href="https://drive.google.com/drive/folders/184ushT5P7AcAi2wqOceq08mN0mMkTRUZ?usp=drive_link"> <img src="images/CMSC 22 project.png" class="project_img"> </a>
+        <p> A game application written using Java with a complete GUI and with a genre of tactical chess. </p>
+
+        <h3 style="text-align:center"> Optimal Diet Calculator (with GUI) </h3>
+        <a href="https://drive.google.com/drive/folders/1qqPLsVcW5Q2vQqCA3_qk1BusMzpOIN74?usp=drive_link"> <img src="images/CMSC 150 project.png" class="project_img"> </a>
+        <p> A web-based application developed through R and RShiny. It provides the user an optimal diet based on a selected set of food. The optimization is 
+          based on the food amount’s cost (which is minimized) and ability to meet the daily 
+          nutritional requirements of an individual. </p>
+
+        <h3 style="text-align:center"> Statistical Package Library (Tests for One Population Proportion) </h3>
+        <a href="https://drive.google.com/file/d/1OaTVmW3QEgMsSrLY0bpyoVh_SXLyODyu/view?usp=drive_link"> <img src="images/STAT 181 project.png" class="project_img"> </a>
+        <p> A written library in R that lets a user run statistical tests for two population proportions.</p>
+
+      </div> <!-- end of right flex container -->
+
+      <!-- Flex Container for the Right Side of the Web (Text Content) -->
+      <div id="flex_container_text"> 
+
+        <!-- For Displaying ABOUT ME -->
+        <div class="textbox" id="about_me">
+          <strong> <h1> ABOUT ME </h1> </strong>
+          <p> Motivated and detail-oriented Statistics undergraduate, committed to continuous self-improvement. With
+            hands-on experience in project management, database management, programming, and statistical
+            analysis, I bring both technical expertise and a proactive mindset to every task. Currently maintaining an
+            outstanding academic standing, I am equally skilled in leadership, team collaboration, and quickly
+            adapting to new environments. </p>
+        </div>
+
+        <!-- For Displaying Contacts (uses Flex Container) -->
+        <div id="ref_contacts">
+
+          <div class="flex_container_contacts"> 
+            <img src="images/phone.png" class="contact_img">
+            <p> 09167234143 </p>
+          </div>
+
+          <div class="flex_container_contacts"> 
+            <img src="images/email.png" class="contact_img">
+            <p> frederickdsindayen@gmail.com </p> 
+          </div>
+
+          <div class="flex_container_contacts"> 
+            <img src="images/socmed.png" class="contact_img">
+            <a href="https://www.facebook.com/fredsindayen/"> <p> https://www.facebook.com/fredsindayen/ </p> </a>
+          </div>
+
+          <div class="flex_container_contacts"> 
+            <img src="images/address.png" class="contact_img">
+            <p> B1 L57 Nativity St. Sacred Heart Village Brgy 179 Caloocan City</p>
+          </div>
+
+        </div> <!-- end of flex container contacts  -->
+
+        <!-- For Displaying Work Experiences and Skills -->
+        
+        <strong> <h1 id="ref_experiences"> WORK EXPERIENCE </h1> </strong>
+        <strong> <p> Legislative Board Co-Head, Alliance of Statistics Majors - UPLB  (August 2024 - present) </p> </strong>
+        <p> >  co-organized team building activities for the organization</p>
+        <p> > co-led the planning and execution of the organization’s 10th anniversary
+          celebration</p>
+          
+        <strong> <p> Academic Board Member, Alliance of Statistics Majors - UPLB (January 2024 -  June 2024) </p> </strong>
+        <p> >  assisted in organizing the biannual ANOVA Yan? STAT 162 Tutorials </p>
+        <p> > assisted in managing the organization’s academic materials </p>
+
+        <strong> <p>  Management Information Systems Volunteer Employee, Novaliches
+          Development Cooperative (July 2024 -  August 2024) </p> </strong>
+        <p> > assisted in database management and generating summary reports </p>
+        
+        <strong> <p>  Operations Department (Information Systems, Technology, and
+          Analytics Division) Member - UPLB Career Assistance Program (October 2024 - February 2025) </p> </strong>
+        <p> > assisted in developing and managing the organization’s data management systems including its website and information systems
+        </p>
+
+        <strong> <p> Finance and Legal Affairs Department (Finance Division) Member - UPLB Career Assistance Program (February 2025 - present) </p> </strong>
+        <p> > assisted in budgeting, tracking, and auditing the monetary and non-monetary assets of the organization 
+        </p>
+
+        <strong> <h2> Technical Skills: </h2> </strong>
+        <p> Statistical analysis, proficiency in different programming
+          languages (Python, R, Java), Microsoft Office proficiency, project management, survey
+          operations management </p>
+        
+        <strong> <p id="note"> NOTE: You may click the project photos to be directed to a gdrive link. </p> </strong>
+
+
+      </div> <!-- end of flex container main  -->
+
+
+    </div>
+  
+  </body>
+  
+</html>

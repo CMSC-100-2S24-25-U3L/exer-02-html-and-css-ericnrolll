@@ -1,0 +1,91 @@
+/* BODY */
+
+body {
+    background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* FLEX CONTAINERS */
+
+#flex_container_header {
+    display: flex;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#flex_container_main {
+    display: flex;
+    padding-top: 10%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#flex_container_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+.flex_container_contacts {
+    display: flex;
+    align-items: center ;
+}
+
+
+/* PHOTOS */
+
+#logo {
+    width: 45%;
+    height: 45%;
+}
+
+.header {
+    width: auto;
+    height: 115px;
+    padding-top: 1%;
+    padding-right: 2%;
+}
+
+#personal_photo {
+    width: 60%; 
+    height: 60%;
+}
+
+.contact_img {
+    width: 4%;
+    height: 4%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+.project_img {
+    width: 85%;
+    height: 85%;   
+}
+
+#exp {
+    padding-top: 1.5%;
+} /* this button is adjusted for its different dimensions*/
+
+/* FONT SETTINGS */
+
+p {
+    font-size: 125%;
+    font-family: 'DM Sans', monospace;
+}
+
+h1, h2, h3 {
+    font-family: 'DM Sans', monospace;
+}
+
+a {
+    color: black;
+}
+
+#note {
+    font-size: 80%;
+}
